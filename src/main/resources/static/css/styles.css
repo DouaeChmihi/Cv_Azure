@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.cv-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.cv-left,
+.cv-right {
+    width: 50%;
+    padding: 20px;
+}
+
+.cv-left {
+    border-right: 2px solid #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.contact ul, .skills ul, .languages ul, .soft-skills ul {
+    margin-top: 10px;
+}
+
+.contact li, .skills li, .languages li, .soft-skills li {
+    margin-bottom: 5px;
+}
+
+.skills, .languages, .soft-skills {
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    margin-top: 10px;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.cv-right ul {
+    padding-left: 20px;
+}
+
+.projects li {
+    font-size: 14px;
+    line-height: 1.6;
+}
